@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Mofix تماشای رایگان فیلم">
+
+
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+  <!--
+    google font
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+ 
+</head>
+<body>
+
+
+  <!--
+    Header
+  -->
+  <header class="header">
+    <div class="search-box" search-box>
+      <div class="search-wrapper" search-wrapper>
+        <input type="text" name="search" autocomplete="off" id="aria-label" placeholder="جستجوی فیلم" class="search-field" search-field>
+        <img src="./assets/images/search.png" alt="" width="24" height="24"class="leading-icon">
+      </div>
+      <button class="search-btn" search-toggler>
+        <img src="./assets/images/close.png" width="24" height = "24"alt="" >
+      </button>
+    </div>
+    <button class="menu-btn" menu-btn menu-toggler>
+      <img src="./assets/images/menu.png" width="24" height = "24" alt="" class="menu">
+      <img src="./assets/images/menu-close.png" width="24" height = "24" alt="" class="close">
+    </button>
+    <button class="search-btn" search-toggler menu-close>
+      <img src="./assets/images/search.png " width="24" height = "24" alt="">
+    </button>
+    
+    <a href="./index.html" class = "logo">
+      <img src="./assets/images/Mofix.png" width="140" height="32"alt="">
+    </a>
+    
+  </header>
+  
+
+  <!--
+    SIDE BAR
+  -->
+
+  <nav class="sidebar" sidebar>
+    <div class="sidebar-inner">
+
+      <div class="sidebar-list">
+
+        <p class="title">دسته بندی</p>
+
+        <a href="./movie-list.html" menu-close class="sidebar-link">اکشن</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">ترسناک</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">کمدی</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">ماجراجویی</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">علمی تخیلی</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">درام</a>
+
+      </div>
+      <div class="sidebar-list">
+
+        <p class="title">زبان</p>
+
+        <a href="./movie-list.html" menu-close class="sidebar-link">ایرانی</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">خارجی</a>
+
+      </div>
+      <div class="sidebar-list">
+
+        <p class="title">نوع</p>
+
+        <a href="./movie-list.html" menu-close class="sidebar-link">سریال</a>
+        <a href="./movie-list.html" menu-close class="sidebar-link">فیلم</a>
+
+      </div>
+      <div class="sidebar-footer">
+        <p class="copyright">
+          Mofix تماشای فیلم و سریال فیکس <a></a>
+        </p>
+        <img src="./assets/images/Mofix-white.png" alt="" width="80" height="17">
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="overlay" overlay menu-toggler></div>
+
+  <article class="container" page-content>
+    <!--
+     MOVIE DETAIL
+    -->
+  <div class="movie-detail">
+    <div class="backdrop-image" style="background-image: url('./assets/images/slider-banner.jpg');"></div>
+      <figure class="poster-box movie-poster">
+        <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+      </figure>
+
+      <div class="detial-box">
+
+        <div class="detail-content">
+          <h1 class="heading">گربه چکمه پوش: آخرین آرزو</h1>
+          <div class="btns">
+          <a href="./detail.html" class="btn">
+            <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidenn="true" alt="">
+            <span class="span"> تماشا کنید</span>
+          </a>
+          <a href="./detail.html" class="btn dl-btn">
+            <img src="./assets/images/download-icon.png" width="24" height="24" aria-hidenn="true" alt="">
+            <span class="span"> دانلود </span>
+          </a>
+          </div>
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height="20" alt="rating">
+              <span class="span">8.4</span>
+              <div class="meta-item">162m</div>
+              <div class="seperator"></div>
+              <div class="meta-item">2020</div>
+
+              <div class="meta-item card-badge">PG-13</div>
+
+            </div>
+          </div>
+
+          <p class="genre">انیمشین اکشن ماجراجویی</p>
+          <p class="overview">گربه چکمه پوش متوجه می شود که اشتیاق او برای ماجراجویی به او صدمه وارد کرده است او هشت زندگی از نه زندگی خود را سوزانده است و تنها یک زندگی باقی مانده است. گربه در یک سفر حماسی برای پیدا کردن اخرین ارزوی افسانه ای و بازگرداندن نه زندگی خود پیش پای می گذارد </p>
+
+          <ul class="detail-list">
+
+            <div class="list-item">
+              <p class="list-name"> عوامل</p>
+              <p>
+                etitia Wright, Lupita Nyong'o, Danai Gurira, Winston Duke, Dominique Thorne, Tenoch Huerta Mejía, Angela Bassett, Florence Kasumba, Michaela Coel, Mabel Cadena
+              </p>
+
+            </div>
+            <div class="list-item">
+              <p class="list-name"> کارگردان</p>
+              <p>
+                Ryan Coogler
+              </p>
+              
+            </div>
+
+
+          </ul>
+        </div>
+
+        <div class="title-wrapper">
+          <h3 class="title-large">تریلر و عکس ها </h3>
+        </div>
+        <div class="slider-list">
+          <div class="slider-inner">
+            <div class="video-card"></div>
+            <div class="video-card"></div>
+            <div class="video-card"></div>
+            <div class="video-card"></div>
+          </div>
+        </div>        
+      </div>
+  </div>
+
+
+  <!--
+    MOVIE LIST
+  -->
+
+  <section class="movie-list" aria-label="فیلم های جدید">
+    <div class="title-wrapper">
+      <h3 class="title-large">شاید بپسندید</h3>
+    </div>
+    <div class="slider-list">
+      <div class= "slider-inner">
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+        
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+        
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+        
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+        
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+        
+        <div class="movie-card">
+          <figure class="poster-box card-banner">
+            <img src="./assets/images/slider-control.jpg" alt="" class="img-cover">
+          </figure>
+
+          <h4 class="title">گربه چکمه پوش : آخرین آرزو</h4>
+
+          <div class="meta-list">
+            <div class="meta-item">
+              <img src="./assets/images/star.png" width="20" height ='20' loading="lazy" alt="rating">
+
+              <span class="span">8.4</span>
+            </div>
+            <div class="card-badge">2022</div>
+          </div>
+          <a href="./detail.html" title="گربه چکمه پوش : آخرین آرزو" class="card-btn"></a>
+
+        </div>
+      </div>
+        
+    </div>
+  </section>
+  
+
+  <script src= "./assets/js/global.js"></script>
+  <script src= "./assets/js/detail.js"></script>
+</body>
+</html>
